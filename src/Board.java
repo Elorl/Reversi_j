@@ -15,7 +15,7 @@ public class Board {
             List<Cell> rowCell = new ArrayList<Cell>();
             for (int column = 0; column < this.columnsNum; column ++) {
                 Cell cell= new Cell(row, column, Color.EMPTY);
-                rowCell.add(row, cell);
+                rowCell.add(cell);
             }
             this.boardArr.add(rowCell);
         }
@@ -54,7 +54,7 @@ public class Board {
             {
                 //check if the cell is empty or not.
                 if(boardArr.get(row).get(column).getColor() == Color.EMPTY){
-                    System.out.println("   |");
+                    System.out.print("   |");
                 } else {
                     if(boardArr.get(row).get(column).getColor() == Color.WHITE) {
                         System.out.print(" O |");

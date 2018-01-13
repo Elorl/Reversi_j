@@ -43,6 +43,6 @@ public class Cell {
         System.out.print(this.xCord + 1);
         System.out.print(',');
         System.out.print(this.yCord + 1);
-        System.out.println(')');
+        System.out.print(')');
     }
 }
