@@ -1,3 +1,6 @@
+/**
+ * Player.
+ */
 public interface Player {
     int getCount();
     char getSymbol();

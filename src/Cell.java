@@ -1,3 +1,6 @@
+/**
+ * Cell.
+ */
 public class Cell {
     private int xCord;
     private int yCord;

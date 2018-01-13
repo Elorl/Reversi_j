@@ -1,3 +1,6 @@
+/**
+ * Counter.
+ */
 public class Counter {
     private int count;
 

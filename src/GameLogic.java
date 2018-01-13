@@ -1,3 +1,6 @@
+/**
+ * GameLogic.
+ */
 public interface GameLogic {
 
     int checkOpt(Color color);

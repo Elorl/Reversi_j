@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * ManualLogic.
+ */
 public class ManualLogic implements GameLogic {
     private Board board;
     public List<List<Cell>> optionsArray = new ArrayList<>();

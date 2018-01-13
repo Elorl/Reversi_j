@@ -1,5 +1,7 @@
 import java.util.Scanner;
-
+/**
+ * Game.
+ */
 public class Game {
     private Board borad;
     private Player player1;

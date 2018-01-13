@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * Board.
+ */
 public class Board {
     private int rowsNum;
     private int columnsNum;

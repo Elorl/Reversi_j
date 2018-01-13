@@ -1,5 +1,7 @@
 import java.util.Scanner;
-
+/**
+ * ManualPlayer.
+ */
 public class ManualPlayer implements Player{
     char symbol;
     Color type;
